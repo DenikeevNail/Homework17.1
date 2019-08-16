@@ -22,7 +22,7 @@ public class Main {
         double s = 0.0;
         Integer a = 9;
         for (Number n : list)
-            s+= n.doubleValue();
+            s+= n.doubleValue();git
         return a;
         }
         List<Integer> li= Arrays.asList(1,2,3);

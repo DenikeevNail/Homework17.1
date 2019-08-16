@@ -1,10 +1,10 @@
 package com.company;
 
-public class Box <T extends Number>{
+public class Box <T, N extends Number>{
 private T number1;
-private T number2;
+private N number2;
 
-    public Box(T number1, T number2) {
+    public Box(T number1, N number2) {
         this.number1 = number1;
         this.number2 = number2;
     }
@@ -14,7 +14,7 @@ private T number2;
         return number1;
     }
 
-    public T getNumber2(T number) {
+    public N getNumber2(N number) {
         return number2;
     }
 
