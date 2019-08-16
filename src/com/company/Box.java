@@ -10,11 +10,11 @@ private N number2;
     }
 
 
-    public T getNumber1( T number) {
+    public T getNumber1() {
         return number1;
     }
 
-    public N getNumber2(N number) {
+    public N getNumber2() {
         return number2;
     }
 
